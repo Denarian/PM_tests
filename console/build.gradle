@@ -1,0 +1,26 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+    id 'org.jetbrains.kotlin.kapt'
+    id 'application'
+}
+
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'com.books.consoleapp.AppKt'
+}
+
+run {
+    standardInput = System.in
+}
+
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+
+    implementation project(":domain")
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rootContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:id="@+id/cover"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic"
+        />
+
+        <TextView
+                android:id="@+id/bookTitle"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Material.Title"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                app:layout_constraintTop_toBottomOf="@id/cover"
+                app:layout_constraintLeft_toLeftOf="@id/cover"
+                app:layout_constraintRight_toRightOf="@id/cover"
+                tools:text="Title"
+        />
+
+        <TextView
+                android:id="@+id/authors"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Material.Caption"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                app:layout_constraintTop_toBottomOf="@id/bookTitle"
+                app:layout_constraintLeft_toLeftOf="@id/bookTitle"
+                app:layout_constraintRight_toRightOf="@id/bookTitle"
+                tools:text="Authors"
+        />
+
+        <TextView
+                android:id="@+id/description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                app:layout_constraintTop_toBottomOf="@id/authors"
+                app:layout_constraintLeft_toLeftOf="@id/cover"
+                app:layout_constraintRight_toRightOf="@id/bookTitle"
+                tools:text="description"
+        />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
