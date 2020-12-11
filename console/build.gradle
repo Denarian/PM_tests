@@ -23,4 +23,5 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
 
     implementation project(":domain")
+    implementation project(":Remote")
 }

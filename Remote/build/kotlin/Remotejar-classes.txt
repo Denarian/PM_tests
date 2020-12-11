@@ -1,0 +1,1 @@
+C:\Users\kubag\Desktop\studia\Programowanie mobilne\grandpacostam\bookworkshop\Remote\build\classes\kotlin\main\com\books\core\network\BooksRemoteRepository$search$1.class;C:\Users\kubag\Desktop\studia\Programowanie mobilne\grandpacostam\bookworkshop\Remote\build\classes\kotlin\main\com\books\core\network\BooksRemoteRepository.class

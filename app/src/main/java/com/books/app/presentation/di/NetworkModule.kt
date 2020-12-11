@@ -2,7 +2,7 @@ package com.books.app.presentation.di
 
 import android.content.Context
 import com.books.R
-import com.books.core.network.ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssBooksRemoteRepository
+import com.books.core.network.BooksRemoteRepository
 import com.books.core.repository.BooksRepository
 import dagger.Module
 import dagger.Provides

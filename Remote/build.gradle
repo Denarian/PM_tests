@@ -20,6 +20,7 @@ dependencies {
 
     //Rx
     api "io.reactivex.rxjava2:rxjava:$versions.rxjava"
+    implementation project(":core")
 }
 
 sourceCompatibility = "8"

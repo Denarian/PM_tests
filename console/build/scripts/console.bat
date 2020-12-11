@@ -79,7 +79,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\console.jar;%APP_HOME%\lib\domain.jar;%APP_HOME%\lib\core.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.4.20.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.4.20.jar;%APP_HOME%\lib\kotlin-stdlib-1.4.20.jar;%APP_HOME%\lib\kotlin-stdlib-common-1.4.20.jar;%APP_HOME%\lib\annotations-13.0.jar;%APP_HOME%\lib\converter-moshi-2.5.0.jar;%APP_HOME%\lib\adapter-rxjava2-2.5.0.jar;%APP_HOME%\lib\retrofit-2.5.0.jar;%APP_HOME%\lib\okhttp-3.14.1.jar;%APP_HOME%\lib\rxjava-2.2.6.jar;%APP_HOME%\lib\moshi-1.11.0.jar;%APP_HOME%\lib\okio-1.17.5.jar;%APP_HOME%\lib\reactive-streams-1.0.2.jar
+set CLASSPATH=%APP_HOME%\lib\console.jar;%APP_HOME%\lib\domain.jar;%APP_HOME%\lib\Remote.jar;%APP_HOME%\lib\core.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.4.20.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.4.20.jar;%APP_HOME%\lib\kotlin-stdlib-1.4.20.jar;%APP_HOME%\lib\kotlin-stdlib-common-1.4.20.jar;%APP_HOME%\lib\annotations-13.0.jar;%APP_HOME%\lib\converter-moshi-2.5.0.jar;%APP_HOME%\lib\adapter-rxjava2-2.5.0.jar;%APP_HOME%\lib\retrofit-2.5.0.jar;%APP_HOME%\lib\okhttp-3.14.1.jar;%APP_HOME%\lib\rxjava-2.2.6.jar;%APP_HOME%\lib\moshi-1.11.0.jar;%APP_HOME%\lib\okio-1.17.5.jar;%APP_HOME%\lib\reactive-streams-1.0.2.jar
 
 @rem Execute console
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %CONSOLE_OPTS%  -classpath "%CLASSPATH%" com.books.consoleapp.AppKt %CMD_LINE_ARGS%
