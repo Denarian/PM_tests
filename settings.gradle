@@ -1,3 +1,3 @@
-include ':app', ':core', ':domain'
+include ':app', ':core', ':domain', 'Remote'
 include 'console'
 include ':app-playground'

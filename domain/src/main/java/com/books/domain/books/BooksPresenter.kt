@@ -1,6 +1,5 @@
 package com.books.domain.books
 
-import com.books.core.api.BooksApi
 import com.books.core.repository.BooksRepository
 import com.books.core.rx.SchedulerProvider
 import com.books.domain.BasePresenter

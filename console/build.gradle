@@ -11,7 +11,7 @@ repositories {
 }
 
 application {
-    mainClass = 'com.books.consoleapp.AppKt'
+    mainClassName = 'com.books.consoleapp.AppKt'
 }
 
 run {
